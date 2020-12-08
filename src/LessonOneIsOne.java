@@ -1,15 +1,9 @@
-public class LessonOneIsOne {
+class LessonThoIsOne {
     public static void main(String[] args) {
-        int number = 9;
-        if(number > 0){
-            number = number+ 1;
+        int a =  2 ;
+        int b =  7 ;
+        for ( int i = a; i <= b; i ++ ) {
+            System.out.println(i);
         }
-        else if(number < 0){
-            number = number - 2;
-        }
-        else if(number == 0){
-            number = 10;
-        }
-        System.out.println(number);
     }
 }
