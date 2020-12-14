@@ -1,15 +1,11 @@
-package java;
-
-//a)
 import java.util.Arrays;
 
-public class LesonTwoTwoTre {
-
+public class LessonTwoExTwoA {
     public static void main(String[] args) {
         int [] mas = new int[8];
 
         for (int i = 0; i < mas.length; i++) {
-            mas[i] = (int)(Math.random()*10)+1;
+            mas[i] = (int)(Math.random()*100)+50;
         }
         System.out.println(Arrays.toString(mas));
         for (int i = 0; i < mas.length; i++) {
@@ -20,6 +16,3 @@ public class LesonTwoTwoTre {
         System.out.println(Arrays.toString(mas));
     }
 }
-
-
-
