@@ -1,11 +1,6 @@
-import java.io.BufferedReader;
-import java.io.Console;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+import java.util.Matcher;
+import java.util.Pattern;
 
 public class PerssonT7For {
     public static void main(String[] args) {
