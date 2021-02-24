@@ -26,13 +26,13 @@ public class MyForm extends JFrame{
     }
      private class Abrobotchik implements ActionListener {
          public void actionPerformed(ActionEvent event){
-           String s1 = " ";
+           String s1 = "Hello ";
            if(event.getSource()== pole1){
                s1 = String.format("pol1 : % s" ,event.getActionCommand());
            }else if (event.getSource()== pole1){
                  s1 = String.format("pol2 : % s" ,event.getActionCommand());
              }
-           JOptionPane.showConfirmDialog(null,s1 );
+           JOptionPane.showConfirmDialog(null, s1);
 }
     }
 }
