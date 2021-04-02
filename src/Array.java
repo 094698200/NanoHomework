@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Array {
+public class Array<S> {
     public static void main(String[] args) {
         int [] array = {2,3,4,1,8,7,6,5};
         for (int i = 0; i < 10 ; i++) {
